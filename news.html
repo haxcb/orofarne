@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width"> 
+		<title>Orofarne: News</title>
+		
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="./css/fonts.css" />		
+		<link rel="stylesheet" type="text/css" href="./css/template.css" />
+		<link rel="stylesheet" type="text/css" href="./css/content.css" />	
+		
+		<!-- JS -->
+		<!-- HTML5shiv.js from http://code.google.com/p/html5shiv/ -->
+		<!-- HTML5shiv for compatibility on older IE browsers -->
+		<script type="text/javascript" src="./js/html5shiv.js"></script> 
+		<script src="http://twitterjs.googlecode.com/svn/trunk/src/twitter.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Header -->
+			<header>
+				<a href="index.html"><div class="logo"></div></a>
+				<a href="index.html"><div class="back"></div>
+				<a href="about.html"><div class="about"></div></a>
+				<a href="gear.html"><div class="gearpackages"></div></a>
+				<a href="news.html"><div class="news"></div></a>
+				<a href="contact.html"><div class="contact"></div></a>
+				<a href="events.html"><div class="events"></div></a>
+			</header>
+			
+			<div class="containerContent">
+				
+				<div class="paintedTop"></div>
+				
+				<div class="content">
+					<!-- BEGIN CONTENT AREA -->
+					<h1>hear us out</h1>
+					<img class="mainimg" src="img/news.png" />
+					<p>We tend to tweet a lot to update our followers
+					on the latest happenings, so check back often.</p>
+					<hr />
+					<h2>news</h2>
+					<p class="center"><i>Straight from our <a href="https://twitter.com/mec">Twitter</a></i></p>
+					<script>
+						// Credit: Remy Sharp (http://remysharp.com/2007/05/18/add-twitter-to-your-blog-step-by-step/)
+						getTwitters('tweet', { 
+						id: 'mec', 
+						count: 10, 
+						enableLinks: true, 
+						ignoreReplies: true, 
+						clearContents: true,
+						template: '<p>%text% <a href="http://twitter.com/%user_screen_name%/statuses/%id_str%" class="twitlink">%time%</a></p>'
+						});
+					</script>
+					<div id="tweet">
+						<p>Please wait while tweets load</p>
+					</div>
+					<!-- END CONTENT AREA -->
+				</div>
+				
+				<div class = "paintedBottom"></div>
+				
+			</div>
+			
+			<!-- Footer border -->
+			<footer></footer>
+			
+		</div>
+		<!-- Copyright -->
+		<div class="footy">
+			<p>Copyright &copy; 2013</p>
+		</div>		
+		
+	</body>
+</html>

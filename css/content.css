@@ -1,0 +1,489 @@
+/* CSS */
+
+body, html
+{
+	position:relative;
+	padding:0;
+	margin:0;
+}
+a
+{
+	text-decoration:none;
+	color:#681c04;
+}
+
+p a
+{
+	color:#c33;
+	font-weight:700;
+	transition:color 0.25s;
+	-o-transition:color 0.25s;
+	-webkit-transition:color 0.25s;
+	-moz-transition:color 0.25s;
+}
+
+p a:hover
+{
+	color:#AA8282;
+}
+
+img, a img
+{
+	border:0;
+}
+
+body
+{
+	background-image:url('../img/bg.png');
+	padding:0;
+	margin:0;
+	padding-top:1.25%; /* NEEDED TO PREVENT PARENT FROM TAKING ON CHILD MARGINS */
+	font-family:"Vollkorn", "Georgia", serif;
+}
+
+.content
+{
+	margin:0 auto;
+	width:700px;
+	color:#681c04;
+	font-size:16px;
+	line-height:1.33333;
+}
+
+.content h1
+{
+	font-family:"Euph", serif;
+	font-size:60px;
+	font-weight:200;
+	color:#681c04;
+	padding:0;
+	margin:0;
+	text-align:center;
+	margin-bottom:20px;
+}
+
+.content h2
+{
+	font-family:"Euph", serif;
+	text-align:center;
+	font-size:40px;
+	font-weight:400;
+	margin:0;
+	padding:0;
+	margin-bottom:5px;
+}
+.content h3
+{
+	font-family:"Euph", serif;
+	text-align:left;
+	font-size:30px;
+	font-weight:400;
+	margin:0;
+	padding:0;
+	margin-bottom:5px;
+}
+
+.content h4
+{
+	text-align:left;
+	color:#c33;
+	font-size:18px;
+	font-weight:400;
+	margin:0;
+	padding:0;
+	margin-bottom:5px;
+}
+
+.mainimg
+{
+	margin: 0 auto;
+	display:block;
+}
+
+.buyimg
+{
+	width:284px;
+}
+
+hr
+{
+	border:0;
+	background:url('../img/imgcontent/hr.png') no-repeat;
+	height:34px;
+	width:700px;
+	margin:20px 0;
+}
+
+.gearimg
+{
+	margin-right:6px;
+}
+
+.left
+{
+	float:left;
+}
+
+.right
+{
+	float:right;
+}
+
+.packagepreview h3
+{
+	margin:0 auto;
+	padding:0;
+	background:url('../img/imgcontent/h3bg.png') no-repeat;
+	width:184px;
+	height:30px;
+	font-size:23px;
+	font-weight:400;
+	font-family:"Euph", serif;
+	text-align:center;
+	color:#986039;
+	margin-bottom:20px;
+}
+
+.packagepreview ul li
+{
+	width:150px;
+	line-height:1.3;
+	margin:7px 0;
+}
+
+
+.button
+{
+	background:url('../img/imgcontent/button.png') no-repeat;
+	width:164px;
+	height:51px;
+	padding-top:13px;
+	padding-left:35px;
+	margin:0 auto;
+	transition:background 0.5s;
+	-o-transition:background 0.5s;
+	-webkit-transition:background 0.5s;
+	-moz-transition:background 0.5s;
+}
+
+.button:hover
+{
+	background:url('../img/imgcontent/buttonb.png') no-repeat;
+}
+
+.buybutton, form.contactForm .submit
+{
+	color:#732C06;
+	background:url('../img/imgcontent/buybutton.png') no-repeat;
+	width:373px;
+	height:56px;
+	padding-top:21px;
+	text-align:center;
+	font-size:30px;
+	margin:0 auto;
+	text-transform:uppercase;
+	font-family:"Euph", "Georgia", "Times", serif;
+	transition:background 0.5s;
+	-o-transition:background 0.5s;
+	-webkit-transition:background 0.5s;
+	-moz-transition:background 0.5s;
+}
+
+.buybutton:hover
+{
+	background:url('../img/imgcontent/buybuttonb.png') no-repeat;	
+}
+
+.button2
+{
+	text-align:center;
+	font-size:35px;
+	margin:0 auto;
+	text-transform:uppercase;
+	font-family:"Euph", "Georgia", "Times", serif;
+	background:url('../img/imgcontent/button2.png') no-repeat;
+	width:374px;
+	height:79px;
+	padding-top:19px;
+	color:#c33;
+}
+
+ul
+{
+	list-style-type:none;
+}
+ul li
+{
+	line-height:1.5;
+}
+li i
+{
+	color:#986039;
+	padding-left:10px;
+}
+
+.geary ul
+{
+	margin-left:100px;
+}
+
+.center
+{
+	text-align:center;
+}
+
+input
+{
+	margin-right:20px;
+}
+
+.buypage h3, .buypage p, .buypage h4 ,.checkout h4, .checkout p, .checkout h3
+{
+	text-align:center;
+}
+
+.checkout p
+{
+	margin-top:0;
+}
+.checkout h4
+{
+	margin-bottom:0;
+}
+
+form.shoes p
+{
+	margin:0;
+	text-align:left;
+}
+
+form.shoes
+{
+	width:250px;
+	margin:0 auto;
+}
+
+form.backpack label, form.jacket label
+{
+	display:block;
+	float:left;
+	margin-left:100px;
+	text-align:center;
+}
+
+form.backpack input, form.jacket input
+{
+	margin-right:5px;
+	margin-left:-5px;
+}
+
+.redBox
+{
+	height:100px; width:100px;
+	background:url('../img/imgcontent/red.png') no-repeat;
+}
+.blueBox
+{
+	height:100px; width:100px;
+	background:url('../img/imgcontent/blue.png') no-repeat;
+}
+.blackBox
+{
+	height:100px; width:100px;
+	background:url('../img/imgcontent/black.png') no-repeat;
+}
+form.tent, form.cook, form.sleep
+{
+	width:200px;
+	margin:0 auto;
+}
+
+form.jacket select
+{
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+select
+{
+	height:25px;
+	width:60px;
+}
+
+.checkout p
+{
+	margin:0;
+}
+p.price
+{
+	border-bottom:1px dotted #DEB7A2;
+	margin-bottom:20px;
+	text-align:right;
+	font-size:18px;
+	padding-right:10px;
+}
+.totals h4
+{
+	text-align:right;
+	font-size:30px;
+	padding-right:10px;
+}
+
+.totals h3
+{
+	margin-left:320px;
+	text-transform:uppercase;
+	float:left;
+}
+
+
+.clear
+{
+	clear:both;
+}
+
+section
+{
+	background:url('../img/imgcontent/evt.png') no-repeat;
+	width:685px;
+	height:230px;
+}
+.info
+{
+	margin-top:50px;
+	margin-left:50px;
+	height:120px;
+	width:470px;
+	float:left;
+}
+.info p
+{
+	margin:2px 0;
+}
+
+.info .dets
+{
+	text-align:right;
+}
+
+section .date
+{
+	float:left;
+	width:100px;
+	margin-top:50px;
+	margin-left:30px;
+}
+section .date .month
+{
+	text-transform:uppercase;
+	font-size:28px;
+	line-height:.5;
+	text-align:center;
+}
+section .date .day
+{
+	text-align:center;
+	line-height:1;
+	font-family:"Times", serif;
+	font-size:80px;
+}
+section .date .year
+{
+	font-family:"Times", serif;
+	font-size:30px;
+	text-align:center;
+	line-height:1;
+}
+
+#tweet ul 
+{
+	margin:0;
+	padding:0;
+}
+
+#tweet  ul li
+{
+	margin-bottom:10px;
+	width:700px;
+	height:100px;
+	background:url('../img/imgcontent/tweetborder.png') no-repeat;
+}
+
+
+#tweet ul li p
+{
+	padding-top:35px;
+	margin-left:50px;
+	width:600px;
+	line-height:1;
+	font-size:15px;
+}
+
+a:link.twitlink 
+{
+	font-weight:100;
+	font-style:italic;
+	display:block;
+	float:right;
+	margin-top:7px;
+}
+
+.abouty p
+{
+	margin-top:0;
+}
+
+.abouty .left
+{
+	margin-right:15px;
+	margin-bottom:20px;
+}
+
+form.contactForm
+{
+	margin:0 auto;
+	width:373px;
+}
+
+form.contactForm input, form.contactForm textarea
+{
+	margin:0;
+	border:1px solid #EDB498;
+	background-image:url('../img/imgcontent/bgred.png');
+	border-top-left-radius:6px;
+	border-bottom-right-radius:6px;
+	color:#a66;
+	font-family:"Vollkorn", "Georgia", "Times", serif;
+	font-size:15px;
+	margin-bottom:10px;
+	width:365px;
+	padding:5px;
+}
+
+form.contactForm textarea
+{
+	width:365px;
+	line-height:1.3333;
+	height:200px;
+	white-space: normal;
+	text-align:left;
+}
+form.contactForm .submit
+{
+	border:0;
+	padding:0;
+	background-image:url('../img/imgcontent/buybutton.png');
+	background-repeat:no-repeat;
+	width:373px;
+	height:79px;
+	display:block;
+	margin:0 auto;
+	transition:background-image 0.5s;
+	-o-transition:background-image 0.5s;
+	-webkit-transition:background-image 0.5s;
+	-moz-transition:background-image 0.5s;
+}
+form.contactForm .submit:hover
+{
+	background-image:url('../img/imgcontent/buybuttonb.png');
+}

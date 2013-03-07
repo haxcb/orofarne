@@ -1,0 +1,218 @@
+body
+{
+	position:relative;
+	padding :0;
+	margin: 0;
+	background-image:url("../img/bg.png");
+}
+
+
+.container
+{
+	position:relative;	
+	margin: 0 auto;
+	margin-top:1.25%;
+	margin-bottom:1.25%;
+	width:1040px;
+}
+
+.logo
+{
+	position:absolute;
+	margin-top:18px;
+	margin-left:40px;
+	width:216px;
+	height:279px;
+	background-position:center;
+	background:url("../img/template/logoS.png") no-repeat;
+	
+	transition: background-image 0.5s;
+	-moz-transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s;
+	-o-transition: background-image 0.5s;
+}
+.logo:hover
+{
+	background-position:center;
+	background:url("../img/template/logoSH.png") no-repeat;
+}
+
+.about
+{
+	position:absolute;
+	margin-top:45px;
+	margin-left:240px;
+	width:298px;
+	height:152px;
+	background-position:center;
+	background:url("../img/template/aboutS.png") no-repeat;
+	
+	transition: background-image 0.5s;
+	-moz-transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s;
+	-o-transition: background-image 0.5s;
+
+}
+.about:hover
+{
+	background-position:center;
+	background:url("../img/template/aboutSH.png") no-repeat;
+}
+.events
+{
+	position:absolute;
+	margin-top:108px;
+	margin-left:400px;
+	width:261px;
+	height:214px;
+	background-position:center;
+	background:url("../img/template/eventsS.png") no-repeat;
+	
+	transition: background-image 0.5s;
+	-moz-transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s;
+	-o-transition: background-image 0.5s;	
+}
+
+.events:hover
+{
+	background-position:center;
+	background:url("../img/template/eventsSH.png") no-repeat;
+}
+
+
+.news
+{
+	position:absolute;
+	margin-top:24px;
+	margin-left:575px;
+	width:171px;
+	height:186px;
+	background-position:center;
+	background:url("../img/template/newsS.png") no-repeat;
+	
+	transition: background-image 0.5s;
+	-moz-transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s;
+	-o-transition: background-image 0.5s;	
+}
+
+.news:hover
+{
+	background-position:center;
+	background:url("../img/template/newsSH.png") no-repeat;
+}
+
+
+.contact
+{
+	position:absolute;
+	margin-top:142px;
+	margin-left:670px;
+	width:266px;
+	height:150px;
+	background-position:center;
+	background:url("../img/template/contactS.png") no-repeat;
+	
+	transition: background-image 0.5s;
+	-moz-transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s;
+	-o-transition: background-image 0.5s;	
+}
+
+.contact:hover
+{
+	background-position:center;
+	background:url("../img/template/contactSH.png") no-repeat;
+}
+
+
+.gearpackages
+{
+	position:absolute;
+	margin-top:25px;
+	margin-left:767px;
+	width:253px;
+	height:167px;
+	background-position:center;
+	background:url("../img/template/packagesS.png") no-repeat;
+	
+	transition: background-image 0.5s;
+	-moz-transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s;
+	-o-transition: background-image 0.5s;	
+}
+
+.gearpackages:hover
+{
+	background-position:center;
+	background:url("../img/template/packagesSH.png") no-repeat;
+}
+
+header
+{
+	position:relative;
+	z-index:1000;
+	width:1040px;
+	height: 339px;
+	background:url("../img/template/header.png") no-repeat;
+}
+
+
+.content
+{
+	position:relative;
+	z-index:2000;
+	width:700px;
+	margin:0 auto;
+	padding:30px 0 60px 0;
+}
+.containerContent
+{
+	position:relative;
+	width:1040px;
+	margin-top:-10px;
+	background:url("../img/template/bordersideV2.png") repeat-y;
+}
+.paintedTop
+{
+	position:absolute;
+	z-index:-1000;
+	margin-top:-20px;
+	margin-left:28px;
+	width:989px;
+	height:332px;
+	background:url("../img/template/paintbg.png") no-repeat;
+}
+
+.paintedBottom
+{
+	position:absolute;
+	z-index:-1000;
+	margin-top:-315px;
+	margin-left:28px;
+	width:989px;
+	height:332px;
+	background:url("../img/template/paintbg2.png") no-repeat;
+}
+
+footer
+{
+	width:1040px;
+	height:44px;
+	background:url("../img/template/borderbotV2.png") no-repeat;
+}
+
+.footy
+{
+	text-align:center;
+	margin-top:-23px;
+	font-size:13px;
+	margin-bottom:0.5%;
+}
+
+.footy p
+{
+	color:#C2896D;
+}
+

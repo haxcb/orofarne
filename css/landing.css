@@ -1,0 +1,176 @@
+body
+{
+	position:relative;
+	padding :0;
+	margin: 0;
+	background-image:url("../img/bg.png");
+}
+
+
+.container
+{
+	position:relative;	
+	margin: 0 auto;
+	margin-top:1.25%;
+	width:1040px;
+	height:600px;
+	background:url("../img/index/roadV3.png") no-repeat;
+
+}
+.logo
+{
+	position: absolute;
+	margin-top: 220px;
+	margin-left:28px;
+	width:325px;
+	height:345px;
+	background-position: center;
+	background:url("../img/index/logo.png") no-repeat;	 	
+	
+	transition: background-image 0.5s;
+	-moz-transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s;
+	-o-transition: background-image 0.5s;
+}
+.logo:hover
+{
+	background-position: center;
+	background:url("../img/index/logoH.png") no-repeat;	 	
+}
+
+.about
+{
+	position:absolute;
+	margin-left:110px;
+	margin-top:58px;
+	width:320px;
+	height:190px;
+	background-position:center;
+	background:url("../img/index/about.png") no-repeat;
+	
+	transition: background-image 0.5s;
+	transition: background-image 0.5s;
+	-moz-transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s;
+	-o-transition: background-image 0.5s;
+	
+}
+.about:hover
+{
+	background-position:center;
+	background:url("../img/index/aboutH.png") no-repeat;
+}
+
+.news
+{
+	position:absolute;
+	margin-left:355px;
+	margin-top:280px;
+	width:216px;
+	height:205px;
+	background-position:center;
+	background:url("../img/index/news.png") no-repeat;
+	
+	transition: background-image 0.5s;
+	transition: background-image 0.5s;
+	-moz-transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s;
+	-o-transition: background-image 0.5s;
+}
+
+.news:hover
+{
+	background-position:center;
+	background:url("../img/index/newsH.png") no-repeat;
+}
+
+.events
+{
+	position: absolute;
+	margin-left:560px;
+	margin-top:50px;
+	width:262px;
+	height:204px;
+	background-position:center;
+	background:url("../img/index/event.png")no-repeat;
+	
+	transition: background-image 0.5s;
+	transition: background-image 0.5s;
+	-moz-transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s;
+	-o-transition: background-image 0.5s;
+}
+
+.events:hover
+{
+	background-position:center;
+	background:url("../img/index/eventH.png") no-repeat;
+}
+
+.events a
+{
+	display:block;
+	width:262px;
+	height:204px;
+}
+
+.packages
+{
+	position:absolute;
+	margin-left:700px;
+	margin-top:200px;
+	width:290px;
+	height:167px;
+	background-position:center;
+	background:url("../img/index/packages.png") no-repeat;
+	
+	transition: background-image 0.5s;
+	transition: background-image 0.5s;
+	-moz-transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s;
+	-o-transition: background-image 0.5s;
+}
+
+
+.packages:hover
+{
+	background-position:center;
+	background:url("../img/index/packagesH.png") no-repeat;
+}
+
+.contact
+{
+	position:absolute;
+	margin-left:730px;
+	margin-top:380px;
+	width:273px;
+	height:166px;
+	background-position:center;
+	background:url("../img/index/contact.png") no-repeat;
+	
+	transition: background-image 0.5s;
+	transition: background-image 0.5s;
+	-moz-transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s;
+	-o-transition: background-image 0.5s;
+}
+.contact:hover
+{
+	background-position:center;
+	background:url("../img/index/contactH.png") no-repeat;
+}
+footer
+{
+
+	text-align:center;
+	color:#C2896D;
+	font-family:"Vollkorn", "Georgia", serif;
+	font-size:13px;
+	margin-top:-10px;
+}
+
+
+
+
+
+
