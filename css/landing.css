@@ -161,12 +161,16 @@ body
 }
 footer
 {
-
-	text-align:center;
+	margin:0 auto;
+	width:1040px;
 	color:#C2896D;
 	font-family:"Vollkorn", "Georgia", serif;
 	font-size:13px;
 	margin-top:-10px;
+}
+footer p
+{
+	text-align:center;
 }
 
 
