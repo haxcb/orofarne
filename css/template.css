@@ -205,14 +205,17 @@ footer
 
 .footy
 {
-	text-align:center;
+	margin:0 auto;
 	margin-top:-23px;
 	font-size:13px;
 	margin-bottom:0.5%;
+	width:1000px;
+
 }
 
 .footy p
 {
 	color:#C2896D;
+	text-align:center;
 }
 
