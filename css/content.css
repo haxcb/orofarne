@@ -51,49 +51,49 @@ body
 	line-height:1.33333;
 }
 
-.content h1
-{
-	font-family:"Euph", serif;
-	font-size:60px;
-	font-weight:200;
-	color:#681c04;
-	padding:0;
-	margin:0;
-	text-align:center;
-	margin-bottom:20px;
-}
+	.content h1
+	{
+		font-family:"Euph", serif;
+		font-size:4em;
+		font-weight:200;
+		color:#681c04;
+		padding:0;
+		margin:0;
+		text-align:center;
+		margin-bottom:20px;
+	}
 
-.content h2
-{
-	font-family:"Euph", serif;
-	text-align:center;
-	font-size:40px;
-	font-weight:400;
-	margin:0;
-	padding:0;
-	margin-bottom:5px;
-}
-.content h3
-{
-	font-family:"Euph", serif;
-	text-align:left;
-	font-size:30px;
-	font-weight:400;
-	margin:0;
-	padding:0;
-	margin-bottom:5px;
-}
+	.content h2
+	{
+		font-family:"Euph", serif;
+		text-align:center;
+		font-size:3em;
+		font-weight:400;
+		margin:0;
+		padding:0;
+		margin-bottom:5px;
+	}
+	.content h3
+	{
+		font-family:"Euph", serif;
+		text-align:left;
+		font-size:2.5em;
+		font-weight:400;
+		margin:0;
+		padding:0;
+		margin-bottom:5px;
+	}
 
-.content h4
-{
-	text-align:left;
-	color:#c33;
-	font-size:18px;
-	font-weight:400;
-	margin:0;
-	padding:0;
-	margin-bottom:5px;
-}
+	.content h4
+	{
+		text-align:left;
+		color:#c33;
+		font-size:1.2em;
+		font-weight:400;
+		margin:0;
+		padding:0;
+		margin-bottom:5px;
+	}
 
 .mainimg
 {
@@ -167,7 +167,7 @@ hr
 	-moz-transition:background 0.5s;
 }
 
-.button:hover
+.button:hover, .button:active
 {
 	background:url('../img/imgcontent/buttonb.png') no-repeat;
 }
@@ -179,23 +179,48 @@ hr
 	width:373px;
 	height:56px;
 	padding-top:21px;
-	text-align:center;
-	font-size:30px;
 	margin:0 auto;
-	text-transform:uppercase;
-	font-family:"Euph", "Georgia", "Times", serif;
 	transition:background 0.5s;
 	-o-transition:background 0.5s;
 	-webkit-transition:background 0.5s;
 	-moz-transition:background 0.5s;
 }
 
-.buybutton:hover
+.buybutton:hover, .buybutton:active
 {
 	background:url('../img/imgcontent/buybuttonb.png') no-repeat;	
 }
 
-.button2
+.customizebutton
+{
+	background-image:url('../img/imgcontent/customize.png')
+}
+
+.customizebutton:hover, .customizebutton:active
+{
+	background-image:url('../img/imgcontent/customizeb.png')
+}	
+
+.checkoutbutton
+{
+	background-image:url('../img/imgcontent/checkout.png')
+}
+
+.checkoutbutton:hover, .checkoutbutton:active
+{
+	background-image:url('../img/imgcontent/checkoutb.png')
+}	
+
+.purchasebutton
+{
+	background-image:url('../img/imgcontent/purchase.png')
+}
+
+.purchasebutton:hover, .purchasebutton:active
+{
+	background-image:url('../img/imgcontent/purchaseb.png')
+}	
+ .button2
 {
 	text-align:center;
 	font-size:35px;
@@ -251,7 +276,10 @@ input
 {
 	margin-bottom:0;
 }
-
+label 
+{
+	display:block;
+}
 form.shoes p
 {
 	margin:0;
@@ -484,7 +512,7 @@ form.contactForm .submit
 	-webkit-transition:background-image 0.5s;
 	-moz-transition:background-image 0.5s;
 }
-form.contactForm .submit:hover
+form.contactForm .submit:hover, form.contactForm .submit:active
 {
 	background-image:url('../img/imgcontent/buybuttonb.png');
 }

@@ -32,7 +32,7 @@ body
 	-webkit-transition: background-image 0.5s;
 	-o-transition: background-image 0.5s;
 }
-.logo:hover
+.logo:hover, .logo:active
 {
 	background-position: center;
 	background:url("../img/index/logoH.png") no-repeat;	 	
@@ -55,7 +55,7 @@ body
 	-o-transition: background-image 0.5s;
 	
 }
-.about:hover
+.about:hover, .about:active
 {
 	background-position:center;
 	background:url("../img/index/aboutH.png") no-repeat;
@@ -78,7 +78,7 @@ body
 	-o-transition: background-image 0.5s;
 }
 
-.news:hover
+.news:hover, .news:active
 {
 	background-position:center;
 	background:url("../img/index/newsH.png") no-repeat;
@@ -101,7 +101,7 @@ body
 	-o-transition: background-image 0.5s;
 }
 
-.events:hover
+.events:hover, .events:active
 {
 	background-position:center;
 	background:url("../img/index/eventH.png") no-repeat;
@@ -132,7 +132,7 @@ body
 }
 
 
-.packages:hover
+.packages:hover, .packages:active
 {
 	background-position:center;
 	background:url("../img/index/packagesH.png") no-repeat;
@@ -154,7 +154,7 @@ body
 	-webkit-transition: background-image 0.5s;
 	-o-transition: background-image 0.5s;
 }
-.contact:hover
+.contact:hover, .contact:active
 {
 	background-position:center;
 	background:url("../img/index/contactH.png") no-repeat;
@@ -172,9 +172,41 @@ footer p
 {
 	text-align:center;
 }
+/* Displays a warning message if in portrait mode on landing page
+Kinda ruins the experience.
+.warning
+{
+	display:none;
+}
 
+@media only screen and (orientation:portrait){
+	.warning
+	{
+		display:block;
+		background-image:url('../img/imgcontent/bgred.png');
+		width:100%;
+		height:30px;
+		top:0;
+		padding-top:7px;
+		position:fixed;
+		text-transform:uppercase;
+		text-align:center;
+		font-family:"Euph", "Georgia", Times, serif;
+		color:#7f2813;
+		border-bottom:2px solid #EDB498;
+	}
+	body
+	{
+		margin-top:40px;
+	}
+}
 
-
-
+@media only screen and (orientation:landscape){
+	.warning
+	{
+		display:none;
+	}
+}
+*/
 
 

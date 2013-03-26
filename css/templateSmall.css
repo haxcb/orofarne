@@ -1,0 +1,233 @@
+/* CSS */
+/* Smartphones */
+@media only screen
+and (max-width: 500px) {
+body, html{
+	width:100%;
+}
+body
+{
+	position:relative;
+	padding :0;
+	margin: 0;
+	background-image:url("../img/bg.png");
+}
+
+
+.container
+{
+	position:relative;	
+	margin: 0 auto;
+	margin-top:0;
+	margin-bottom:1.25%;
+	width:100%;
+	background:none;
+}
+
+.logo
+{
+	margin:0;
+	position:relative;
+	left:0;
+	width:44%;
+	height:auto;
+	float:left;
+	background-position:center;
+	background:url("../img/template/sm/logo.png") no-repeat;
+	background-size:100%;
+	transition: background-image 0.5s;
+	-moz-transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s;
+	-o-transition: background-image 0.5s;
+	margin-bottom:20%;
+}
+
+
+
+.logo:hover, .logo:active
+{
+	background-position:center;
+	background:url("../img/template/sm/logoH.png") no-repeat;
+	background-size:100%;
+}
+.headerL
+{
+	width:29%;
+	float:left;
+}
+.headerR
+{
+	width:27%;
+	float:left;
+}
+
+.about, .gearpackages, .news, .contact, .events
+{
+	width:100%;
+	margin:0;
+	padding:0;
+	position:relative;
+	left:0;
+	height:auto;
+	float:none;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	display:block;
+}
+
+.about, .gearpackages, .contact, .news, .events
+{
+	transition: background-image 0.5s;
+	-moz-transition: background-image 0.5s;
+	-webkit-transition: background-image 0.5s;
+	-o-transition: background-image 0.5s;
+}
+
+.about 
+{
+	background:url("../img/template/sm/about.png") no-repeat;
+	background-position:center;
+	background-size:100%;	
+}
+
+
+.about:hover, .about:active
+{
+	background:url("../img/template/sm/aboutH.png") no-repeat;
+	background-position:center;
+	background-size:100%;	
+}
+
+.events 
+{
+	background:url("../img/template/sm/events.png") no-repeat;
+	background-position:center;
+	background-size:100%;
+}
+
+.events:hover, .events:active
+{	
+	background:url("../img/template/sm/eventsH.png") no-repeat;
+	background-position:center;
+	background-size:100%;
+}
+
+.news 
+{
+	background:url("../img/template/sm/news.png") no-repeat;
+	background-position:center;
+	background-size:100%;	
+}
+
+.news:hover, .news:active
+{	
+	background:url("../img/template/sm/newsH.png") no-repeat;
+	background-position:center;
+	background-size:100%;
+}
+
+.contact 
+{
+	background:url("../img/template/sm/contact.png") no-repeat;
+	background-position:center;
+	background-size:100%;	
+}
+
+.contact:hover, .contact:active
+{
+	background:url("../img/template/sm/contactH.png") no-repeat;
+	background-position:center;
+	background-size:100%;
+}
+
+.gearpackages 
+{
+	background:url("../img/template/sm/packages.png") no-repeat;
+	background-position:center;
+	background-size:100%;	
+}
+
+.gearpackages:hover, .gearpackages:active
+{
+	background:url("../img/template/sm/packagesH.png") no-repeat;
+	background-position:center;
+	background-size:100%;
+}
+
+header
+{
+	position:relative;
+	z-index:1000;
+	width:100%;
+	max-width:100%;
+	height:auto;
+	background:url("../img/template/sm/bgtop.png") no-repeat;
+	background-size:100%;
+}
+
+
+.content
+{
+	position:relative;
+	z-index:2000;
+	width:100%;
+	margin:0 auto;
+	padding:0;
+}
+.containerContent
+{
+	position:relative;
+	width:94%;
+	margin:3%;
+	margin-top:0;
+	top:-30px;
+	background:none;
+}
+.paintedTop
+{
+	width:100%;
+	background:none;
+	margin:0;
+	height:0;
+}
+
+.paintedBottom
+{
+	width:100%;
+	background:none;
+	margin:0;
+	height:0;
+}
+
+footer
+{
+	width:100%;
+	height:83px;
+	background:url("../img/template/sm/footer.png") no-repeat;
+	background-size:100%;
+	position:relative;
+	top:-30px;
+}
+
+.footy
+{
+	margin:0 auto;
+	font-size:13px;
+	margin-top:-75px;
+	width:100%;
+	position:relative;
+	bottom:-30px;
+
+}
+
+.footy p
+{
+	color:#C2896D;
+	text-align:center;
+}
+
+
+
+}

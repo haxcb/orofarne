@@ -3,29 +3,37 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width"> 
-		<title>Orofarne: Customize</title>
+		<title>Orofarne: About</title>
 		
 		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="./css/fonts.css" />		
 		<link rel="stylesheet" type="text/css" href="./css/template.css" />
+		<link rel="stylesheet" type="text/css" href="./css/templateMed.css" />
+		<link rel="stylesheet" type="text/css" href="./css/templateSmall.css" />
 		<link rel="stylesheet" type="text/css" href="./css/content.css" />	
+		<link rel="stylesheet" type="text/css" href="./css/contentMed.css" />	
+		<link rel="stylesheet" type="text/css" href="./css/contentSmall.css" />	
 		
 		<!-- JS -->
 		<!-- HTML5shiv.js from http://code.google.com/p/html5shiv/ -->
 		<!-- HTML5shiv for compatibility on older IE browsers -->
 		<script type="text/javascript" src="./js/html5shiv.js"></script> 
 	</head>
-	<body>
+	<body ontouchstart="">
 		<div class="container">
 			<!-- Header -->
 			<header>
-				<a href="index.html"><div class="logo"></div></a>
-				<a href="index.html"><div class="back"></div>
-				<a href="about.html"><div class="about"></div></a>
-				<a href="gear.html"><div class="gearpackages"></div></a>
-				<a href="news.html"><div class="news"></div></a>
-				<a href="contact.html"><div class="contact"></div></a>
-				<a href="events.html"><div class="events"></div></a>
+				<a href="index.html"><img src="img/template/sm/blanklogo.png" class="logo" /></a>
+				<div class="headerL">
+					<a href="about.html"><img src="img/template/sm/blankabout.png" class="about" /></a>
+					<a href="gear.html"><img src="img/template/sm/blankpackages.png" class="gearpackages" /></a>	
+					<a href="contact.html"><img src="img/template/sm/blankcontact.png" class="contact" /></a>
+				</div>
+				<div class="headerR">
+					<a href="news.html"><img src="img/template/sm/blanknews.png" class="news" /></a>				
+					<a href="events.html"><img src="img/template/sm/blankevents.png" class="events"></a>
+				</div>
+				<div class="clear"></div>
 			</header>
 			
 			<div class="containerContent">
@@ -41,13 +49,13 @@
 					<div class="button2">$720</div>
 					<hr />
 					
-					<h3>hiking shoes</h3>
-					<h4>$100</h4>
+					<h3>hiking shoes</h3>			
 					<p>1 Pair x Hiking Shoes <i>(5/10 Dome)</i></p>
+					<h4>$100</h4>
 					<form class="shoes">
 						<div class="left">
-							<input type="radio" name="gender" checked="checked" id="chMale" /><label for="chMale">Male</label><br />
-							<input type="radio" name="gender"id="chFemale" /><label for="chFemale">Female</label>
+							<label for="chMale"><input type="radio" name="gender" checked="checked" id="chMale" />Male<div class="radiobutton"></div></label>
+							<label for="chFemale"><input type="radio" name="gender"id="chFemale" />Female<div class="radiobutton"></div></label>
 						</div>
 						<div class="right">
 							<p>Shoe Size</p>
@@ -80,9 +88,9 @@
 					<p>1 x Backpack <i>(Verto 26 Pack)</i></p>
 					<h4>$60</h4>
 					<form class="backpack">
-						<label for="chRed"><div class="redBox"></div><input type="radio" checked="checked" name="color" id="chRed" />Red</label>
-						<label for="chBlue"><div class="blueBox"></div><input type="radio" name="color"id="chBlue" />Blue</label>
-						<label for="chBlack"><div class="blackBox"></div><input type="radio" name="color"id="chBlack" />Black</label>
+						<label for="chRed"><div class="redBox"></div><input type="radio" checked="checked" name="color" id="chRed" />Red<div class="radiobutton"></div></label>
+						<label for="chBlue"><div class="blueBox"></div><input type="radio" name="color"id="chBlue" />Blue<div class="radiobutton"></div></label>
+						<label for="chBlack"><div class="blackBox"></div><input type="radio" name="color"id="chBlack" />Black<div class="radiobutton"></div></label>
 						<div class="clear"></div>
 					</form>
 					<hr />
@@ -99,9 +107,9 @@
 							<option value="L">L</option>
 							<option value="XL">XL</option>
 						</select></p>
-						<label for="chRedJ"><div class="redBox"></div><input type="radio" checked="checked" name="jacket" id="chRedJ" />Red</label>
-						<label for="chBlueJ"><div class="blueBox"></div><input type="radio" name="jacket" id="chBlueJ" />Blue</label>
-						<label for="chBlackJ"><div class="blackBox"></div><input type="radio" name="jacket"id="chBlackJ" />Black</label>
+						<label for="chRedJ"><div class="redBox"></div><input type="radio" checked="checked" name="jacket" id="chRedJ" />Red<div class="radiobutton"></div></label>
+						<label for="chBlueJ"><div class="blueBox"></div><input type="radio" name="jacket" id="chBlueJ" />Blue<div class="radiobutton"></div></label>
+						<label for="chBlackJ"><div class="blackBox"></div><input type="radio" name="jacket"id="chBlackJ" />Black<div class="radiobutton"></div></label>
 						<div class="clear"></div>
 					</form>
 					<hr />					
@@ -110,8 +118,8 @@
 					<p>1 x Two Person Tent <i>(REI Half Dome 2)</i></p>
 					<h4>+ $150</h4>
 					<form class="tent">
-						<input type="radio" name="tent" id="chIncludeT" checked="checked" /><label for="chIncludeT">Include in package</label><br />
-						<input type="radio" name="tent"id="chDiscludeT" /><label for="chDiscludeT">Don't include</label>
+						<label for="chIncludeT"><input type="radio" name="tent" id="chIncludeT" checked="checked" />Include in package<div class="radiobutton"></div></label>
+						<label for="chDiscludeT"><input type="radio" name="tent"id="chDiscludeT" />Don't include<div class="radiobutton"></div></label>
 					</form>
 					<hr />
 
@@ -119,8 +127,8 @@
 					<p>1 x Camp Cooking Set <i>(Bugaboo Base Camper Small)</i></p>
 					<h4>+ $60</h4>
 					<form class="cook">
-						<input type="radio" name="cook" id="chIncludeC" checked="checked" /><label for="chIncludeC">Include in package</label><br />
-						<input type="radio" name="cook"id="chDiscludeC" /><label for="chDiscludeC">Don't include</label>
+						<label for="chIncludeC"><input type="radio" name="cook" id="chIncludeC" checked="checked" />Include in package<div class="radiobutton"></div></label>
+						<label for="chDiscludeC"><input type="radio" name="cook"id="chDiscludeC" />Don't include<div class="radiobutton"></div></label>
 					</form>
 					<hr />
 					
@@ -128,12 +136,12 @@
 					<p>1 x Sleeping Bag <i>(Mountain Hardwear’s Ultralamina 32)</i></p>
 					<h4>+ $150</h4>
 					<form class="sleep">
-						<input type="radio" name="sleep" id="chIncludeS" checked="checked" /><label for="chIncludeS">Include in package</label><br />
-						<input type="radio" name="sleep"id="chDiscludeS" /><label for="chDiscludeS">Don't include</label>
+						<label for="chIncludeS"><input type="radio" name="sleep" id="chIncludeS" checked="checked" />Include in package<div class="radiobutton"></div></label>
+						<label for="chDiscludeS"><input type="radio" name="sleep"id="chDiscludeS" />Don't include<div class="radiobutton"></div></label>
 					</form>
 					<hr />
 					
-					<a href="checkout.html"><div class="buybutton">Checkout</div></a>
+					<a href="checkout.html"><div class="buybutton checkoutbutton"></div></a>
 					<!-- END CONTENT AREA -->
 				</div>
 				

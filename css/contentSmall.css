@@ -1,0 +1,623 @@
+/* CSS */
+/* Smartphones */
+@media only screen
+and (max-width: 500px) {
+	body, html
+	{
+		position:relative;
+		padding:0;
+		margin:0;
+		font-size:100%;	
+	}
+	a
+	{
+		text-decoration:none;
+		color:#681c04;
+	}
+
+	p a
+	{
+		color:#c33;
+		font-weight:700;
+		transition:color 0.25s;
+		-o-transition:color 0.25s;
+		-webkit-transition:color 0.25s;
+		-moz-transition:color 0.25s;
+	}
+	ul
+	{
+		list-style-type:none;
+		-webkit-padding-start:0;
+		-webkit-margin-before:0;
+	}
+	ul li
+	{
+		line-height:1.5;
+	}
+	li i
+	{
+		color:#986039;
+		padding-left:10px;
+	}
+
+	p a:hover
+	{
+		color:#AA8282;
+	}
+
+	img, a img
+	{
+		border:0;
+	}
+	
+	select
+	{
+		height:30px;
+		width:100%;
+	}
+	
+	body
+	{
+		background-image:url('../img/bg.png');
+		padding:0;
+		margin:0;
+		padding-top:1.25%; /* NEEDED TO PREVENT PARENT FROM TAKING ON CHILD MARGINS */
+		padding:0;
+		font-family:"Vollkorn", "Georgia", serif;
+	}
+
+	.content
+	{
+		margin:0 auto;
+		width:100%;
+		color:#681c04;
+		font-size:1em;
+		line-height:1.33333;
+		margin-top:0;
+	}
+
+	.content h1
+	{
+		font-family:"Euph", serif;
+		font-size:3.5em;
+		font-weight:200;
+		color:#681c04;
+		padding:0;
+		margin:0;
+		margin-top:10px;
+		text-align:center;
+		margin-bottom:20px;
+		line-height:1;
+	}
+
+	.content h2
+	{
+		font-family:"Euph", serif;
+		text-align:center;
+		font-size:2.5em;
+		font-weight:400;
+		margin:0;
+		padding:0;
+		margin-bottom:5px;
+	}
+	.content h3
+	{
+		font-family:"Euph", serif;
+		text-align:left;
+		font-size:2em;
+		font-weight:400;
+		margin:0;
+		padding:0;
+		margin-bottom:5px;
+	}
+
+	.content h4
+	{
+		text-align:left;
+		color:#c33;
+		font-weight:400;
+		margin:0;
+		padding:0;
+		margin-bottom:5px;
+	}
+
+	.mainimg
+	{
+		margin: 0 auto;
+		display:block;
+		width:70%;
+	}
+
+	.buyimg img
+	{
+		width:100%;
+	}
+
+	hr
+	{
+		border:0;
+		background:url('../img/imgcontent/sm/hr.png') no-repeat;
+		height:34px;
+		width:100%;
+		background-size:100%;
+		margin:20px 0;
+	}
+
+	.gearimg
+	{
+		margin-right:6px;
+	}
+
+	.left
+	{
+		float:left;
+	}
+
+	.right
+	{
+		float:right;
+	}
+
+	.packagepreview h3
+	{
+		margin:0 auto;
+		padding:0;
+		background:url('../img/imgcontent/h3bg.png') no-repeat;
+		width:184px;
+		height:30px;
+		font-size:1.5em;
+		font-weight:400;
+		font-family:"Euph", serif;
+		text-align:center;
+		color:#986039;
+		margin-bottom:20px;
+	}
+	.packagepreview ul
+	{
+		-webkit-padding-start:0;
+		text-align:center;
+	}
+	.packagepreview ul li
+	{
+		width:auto;
+		line-height:1.3;
+		margin:7px 0;
+	}
+	
+	.packagepreview
+	{
+		margin:0 auto;
+		float:none;
+		border-bottom:1px dotted #DEB7A2;
+		margin-bottom:30px;
+	}
+	
+	.packagepreview img
+	{
+		margin:0 auto;
+		width:227px;
+		display:block;
+	}
+	
+	.button
+	{
+		background:url('../img/imgcontent/button.png') no-repeat;
+		width:164px;
+		height:51px;
+		padding-top:13px;
+		padding-left:35px;
+		margin:0 auto;
+		transition:background 0.5s;
+		-o-transition:background 0.5s;
+		-webkit-transition:background 0.5s;
+		-moz-transition:background 0.5s;
+	}
+
+	.button:hover, .button:active
+	{
+		background:url('../img/imgcontent/buttonb.png') no-repeat;
+	}
+
+	.buybutton, form.contactForm .submit
+	{
+		
+		color:#732C06;
+		background-size:100%;
+		width:80%;
+		height:60px;
+		padding-top:18px;
+		margin:0 auto;
+		transition:background 0.5s;
+		-o-transition:background 0.5s;
+		-webkit-transition:background 0.5s;
+		-moz-transition:background 0.5s;
+	}
+
+	.buybutton:hover, .buybutton:active
+	{
+		background-size:100%;		
+	}
+	
+	.button2
+	{
+		text-align:center;
+		font-size:2em;
+		margin:0 auto;
+		text-transform:uppercase;
+		font-family:"Euph", "Georgia", "Times", serif;
+		background:url('../img/imgcontent/button2.png') no-repeat;
+		width:100%;
+		height:79px;
+		background-size:100%;
+		padding-top:5vw;
+		color:#c33;
+	}
+
+	.geary ul
+	{
+		margin-left:10px;
+	}
+
+	.center
+	{
+		text-align:center;
+	}
+
+	input
+	{
+		margin-right:20px;
+	}
+
+	.buypage h3, .buypage p, .buypage h4 ,.checkout h4, .checkout p, .checkout h3
+	{
+		text-align:center;
+	}
+
+	.checkout p
+	{
+		margin-top:0;
+	}
+	.checkout h4
+	{
+		margin-bottom:0;
+	}
+
+	form.shoes p
+	{
+		margin:0;
+		text-align:left;
+	}
+
+	form.shoes
+	{
+		width:100%;
+		margin:0 auto;
+	}
+	
+	form.shoes .left, form.shoes .right
+	{
+		float:none;
+		margin:0 auto;
+		position:relative;
+	}
+	
+	form.shoes .right, form.shoes .right p
+	{
+		width:100%;
+		text-align:center;
+	}
+	
+	form.shoes label, form.shoes  input,
+	form.tent label, form.tent  input,
+	form.cook label, form.cook  input,
+	form.sleep label, form.sleep  input
+	{
+		margin-left:20px;
+		margin-top:15px;
+	}
+
+	form.shoes label,
+	form.tent label
+	form.cook label
+	form.sleep label
+	{
+		width:95%;
+	}
+	
+	.radiobutton
+	{
+		background-image:url('../img/imgcontent/bgred.png');
+		border:1px solid #EDB498;
+		border-radius:7px;
+		height:50px;
+		width:inherit;
+		position:relative;
+		z-index:-1000;
+		margin-top:-35px;
+	}
+	
+	
+	form.shoes .right
+	{
+		margin-top:15px;
+	}
+	
+	form.backpack .radiobutton, form.jacket .radiobutton
+	{
+		height:140px;
+		margin:0 auto;
+		margin-top:-130px;
+		width:150px;
+	}	
+		
+	/* Find the direct child of label and if the input there is
+	checked, then change .radiobutton's bg image */
+	form.backpack label  > input[type=radio]:checked ~ .radiobutton,
+	form.jacket label > input[type=radio]:checked ~ .radiobutton,
+	form.shoes div.left label > input[type=radio]:checked ~ .radiobutton,
+	form.cook  label > input[type=radio]:checked ~ .radiobutton,
+	form.tent  label > input[type=radio]:checked ~ .radiobutton,
+	form.sleep  label > input[type=radio]:checked ~ .radiobutton
+	{
+		background-image:url('../img/imgcontent/bgredb.png');
+	}
+		
+	form.backpack label, form.jacket label
+	{
+		display:block;
+		float:none;
+		text-align:center;
+		margin-left:0;
+		width:100%;
+		margin:30px 0;
+	}
+
+	form.backpack input, form.jacket input
+	{
+		margin-right:5px;
+		margin-left:-5px;
+	}
+	.redBox, .blueBox, .blackBox
+	{
+		margin:0 auto;
+	}
+	.redBox
+	{
+		height:100px; width:100px;
+		background:url('../img/imgcontent/red.png') no-repeat;
+	}
+	.blueBox
+	{
+		height:100px; width:100px;
+		background:url('../img/imgcontent/blue.png') no-repeat;
+	}
+	.blackBox
+	{
+		height:100px; width:100px;
+		background:url('../img/imgcontent/black.png') no-repeat;
+	}
+	form.tent, form.cook, form.sleep
+	{
+		width:95%;
+		margin:0 auto;
+	}
+
+	form.jacket select
+	{
+		margin-left:10px;
+		margin-bottom:10px;
+	}
+	.buypage select
+	{
+		width:90%;
+	}
+	.checkout p
+	{
+		margin:0;
+	}
+	p.price
+	{
+		border-bottom:1px dotted #DEB7A2;
+		margin-bottom:20px;
+		text-align:right;
+		font-size:18px;
+		padding-right:10px;
+	}
+	.totals h4
+	{
+		text-align:right;
+		font-size:30px;
+		padding-right:10px;
+	}
+
+	.totals h3
+	{
+		padding-left:10px;
+		text-transform:uppercase;
+		float:left;
+	}
+
+
+	.clear
+	{
+		clear:both;
+	}
+
+	section
+	{
+		background:url('../img/imgcontent/evt.png') no-repeat;
+		width:685px;
+		height:230px;
+	}
+	.info
+	{
+		margin-top:50px;
+		margin-left:50px;
+		height:120px;
+		width:470px;
+		float:left;
+	}
+	.info p
+	{
+		margin:2px 0;
+	}
+
+	.info .dets
+	{
+		text-align:right;
+	}
+
+	section .date
+	{
+		float:left;
+		width:100px;
+		margin-top:50px;
+		margin-left:30px;
+	}
+	section .date .month
+	{
+		text-transform:uppercase;
+		font-size:28px;
+		line-height:.5;
+		text-align:center;
+	}
+	section .date .day
+	{
+		text-align:center;
+		line-height:1;
+		font-family:"Times", serif;
+		font-size:80px;
+	}
+	section .date .year
+	{
+		font-family:"Times", serif;
+		font-size:30px;
+		text-align:center;
+		line-height:1;
+	}
+
+	#tweet ul 
+	{
+		margin:0;
+		padding:0;
+	}
+
+	#tweet  ul li
+	{
+		margin-bottom:10px;
+		width:700px;
+		height:100px;
+		background:url('../img/imgcontent/tweetborder.png') no-repeat;
+	}
+
+
+	#tweet ul li p
+	{
+		padding-top:35px;
+		margin-left:50px;
+		width:600px;
+		line-height:1;
+		font-size:15px;
+	}
+
+	a:link.twitlink 
+	{
+		font-weight:100;
+		font-style:italic;
+		display:block;
+		float:right;
+		margin-top:7px;
+	}
+
+	.abouty p
+	{
+		margin-top:0;
+	}
+
+	.abouty .left
+	{
+		float:none;
+		width:50%;
+		margin:0 auto;
+	}
+	
+	.abouty h3
+	{
+		text-align:center;
+	}
+	
+	form.contactForm
+	{
+		margin:0 auto;
+		width:373px;
+	}
+
+	form.contactForm input, form.contactForm textarea
+	{
+		margin:0;
+		border:1px solid #EDB498;
+		background-image:url('../img/imgcontent/bgred.png');
+		border-top-left-radius:6px;
+		border-bottom-right-radius:6px;
+		color:#a66;
+		font-family:"Vollkorn", "Georgia", "Times", serif;
+		font-size:15px;
+		margin-bottom:10px;
+		width:365px;
+		padding:5px;
+	}
+
+	form.contactForm textarea
+	{
+		width:365px;
+		line-height:1.3333;
+		height:200px;
+		white-space: normal;
+		text-align:left;
+	}
+	form.contactForm .submit
+	{
+		border:0;
+		padding:0;
+		background-image:url('../img/imgcontent/buybutton.png');
+		background-repeat:no-repeat;
+		width:373px;
+		height:79px;
+		display:block;
+		margin:0 auto;
+		transition:background-image 0.5s;
+		-o-transition:background-image 0.5s;
+		-webkit-transition:background-image 0.5s;
+		-moz-transition:background-image 0.5s;
+	}
+	form.contactForm .submit:hover, form.contactForm .submit:active
+	{
+		background-image:url('../img/imgcontent/buybuttonb.png');
+	}
+}
+
+/* Scaling font sizes for some parts */
+@media only screen
+and (max-width: 400px) {
+	.buypage .button2
+	{
+		padding-top:5vw;
+		font-size:2em;
+	}
+}
+@media only screen
+and (max-width: 300px) {
+	.buypage .button2
+	{
+		padding-top:5vw;
+		font-size:1.5em;
+	}
+}
+@media only screen
+and (max-width: 250px) {
+	.buypage .button2
+	{
+		padding-top:3vw;
+		font-size:1.5em;
+	}
+}

@@ -1,3 +1,7 @@
+/* CSS */
+/* Smartphones */
+@media only screen
+and (max-width: 800px) {
 body
 {
 	position:relative;
@@ -11,9 +15,10 @@ body
 {
 	position:relative;	
 	margin: 0 auto;
-	margin-top:1.25%;
+	margin-top:0;
 	margin-bottom:1.25%;
-	width:1040px;
+	width:800px;
+	background-size:100%;
 }
 
 .logo, .about, .news, .events, .gearpackages, .contact
@@ -24,13 +29,12 @@ body
 .logo
 {
 	position:absolute;
-	margin-top:18px;
-	margin-left:40px;
+	margin-top:-15px;
+	margin-left:303px;
 	width:216px;
 	height:279px;
 	background-position:center;
-	background:url("../img/template/logoS.png") no-repeat;
-	
+	background:url("../img/template/med/logoS.png") no-repeat;
 	transition: background-image 0.5s;
 	-moz-transition: background-image 0.5s;
 	-webkit-transition: background-image 0.5s;
@@ -39,19 +43,18 @@ body
 .logo:hover, .logo:active
 {
 	background-position:center;
-	background:url("../img/template/logoSH.png") no-repeat;
+	background:url("../img/template/med/logoSH.png") no-repeat;
 }
 
 .about
 {
 	position:absolute;
-	margin-top:45px;
-	margin-left:240px;
+	margin-top:235px;
+	margin-left:0px;
 	width:298px;
 	height:152px;
 	background-position:center;
-	background:url("../img/template/aboutS.png") no-repeat;
-	
+	background:url("../img/template/aboutS.png") no-repeat;	
 	transition: background-image 0.5s;
 	-moz-transition: background-image 0.5s;
 	-webkit-transition: background-image 0.5s;
@@ -66,8 +69,8 @@ body
 .events
 {
 	position:absolute;
-	margin-top:108px;
-	margin-left:400px;
+	margin-top:298px;
+	margin-left:160px;
 	width:261px;
 	height:214px;
 	background-position:center;
@@ -89,8 +92,8 @@ body
 .news
 {
 	position:absolute;
-	margin-top:24px;
-	margin-left:575px;
+	margin-top:214px;
+	margin-left:335px;
 	width:171px;
 	height:186px;
 	background-position:center;
@@ -112,8 +115,8 @@ body
 .contact
 {
 	position:absolute;
-	margin-top:142px;
-	margin-left:670px;
+	margin-top:342px;
+	margin-left:430px;
 	width:266px;
 	height:150px;
 	background-position:center;
@@ -135,8 +138,8 @@ body
 .gearpackages
 {
 	position:absolute;
-	margin-top:25px;
-	margin-left:767px;
+	margin-top:225px;
+	margin-left:527px;
 	width:253px;
 	height:167px;
 	background-position:center;
@@ -158,9 +161,9 @@ header
 {
 	position:relative;
 	z-index:1000;
-	width:1040px;
-	height: 339px;
-	background:url("../img/template/header.png") no-repeat;
+	width:800px;
+	height: 600px;
+	background:url("../img/template/med/headerbg2.png") no-repeat;
 }
 
 
@@ -168,16 +171,17 @@ header
 {
 	position:relative;
 	z-index:2000;
-	width:900px;
+	width:700px;
 	margin:0 auto;
-	padding:30px 0 60px 0;
+	padding:0;
+	padding-bottom:30px;
 }
 .containerContent
 {
 	position:relative;
-	width:1040px;
-	margin-top:-10px;
-	background:url("../img/template/bordersideV2.png") repeat-y;
+	width:800px;
+	margin-top:150px;
+	background:url("../img/template/med/borderside.png") repeat-y;
 }
 .paintedTop
 {
@@ -185,27 +189,29 @@ header
 	z-index:-1000;
 	margin-top:-20px;
 	margin-left:28px;
-	width:989px;
+	width:600px;
 	height:332px;
 	background:url("../img/template/paintbg.png") no-repeat;
+	background:none;
 }
 
 .paintedBottom
 {
 	position:absolute;
 	z-index:-1000;
-	margin-top:-315px;
+	margin-top:-235px;
 	margin-left:28px;
-	width:989px;
+	width:750px;
 	height:332px;
 	background:url("../img/template/paintbg2.png") no-repeat;
+	background-size:100%;
 }
 
 footer
 {
-	width:1040px;
+	width:800px;
 	height:44px;
-	background:url("../img/template/borderbotV2.png") no-repeat;
+	background:url("../img/template/med/bottom.png") no-repeat;
 }
 
 .footy
@@ -214,7 +220,7 @@ footer
 	margin-top:-23px;
 	font-size:13px;
 	margin-bottom:0.5%;
-	width:1000px;
+	width:800px;
 
 }
 
@@ -224,3 +230,6 @@ footer
 	text-align:center;
 }
 
+
+
+}
